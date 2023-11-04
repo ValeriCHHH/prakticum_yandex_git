@@ -15,3 +15,13 @@
 [link](https://2ip.com "link111")
 
 ###end
+
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
